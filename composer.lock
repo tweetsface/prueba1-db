@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e1d08fc0f146244b6b73995acd86861",
+    "content-hash": "26ca14a876799a6d0ff3d925fbbf4714",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2554,6 +2554,65 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
+        },
+        {
+            "name": "skycoder/laravel-filesaver",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skycoder026/laravel-filesaver.git",
+                "reference": "c2745382f2225cae6bdda531877b129f14c064c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skycoder026/laravel-filesaver/zipball/c2745382f2225cae6bdda531877b129f14c064c1",
+                "reference": "c2745382f2225cae6bdda531877b129f14c064c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Skycoder\\LaravelFilesaver\\LaravelFilesaverServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Skycoder\\LaravelFilesaver\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Skycoder",
+                    "email": "akashcseuu026@gmail.com"
+                }
+            ],
+            "description": "Laravel Filesaver",
+            "homepage": "https://github.com/skycoder026/laravel-filesaver",
+            "keywords": [
+                "akashcsem",
+                "asmakash",
+                "filesaver",
+                "laravel-filesaver",
+                "skycoder"
+            ],
+            "support": {
+                "issues": "https://github.com/skycoder026/laravel-filesaver/issues",
+                "source": "https://github.com/skycoder026/laravel-filesaver/tree/master"
+            },
+            "time": "2021-12-09T00:00:00+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7382,7 +7441,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "skycoder/laravel-filesaver": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
